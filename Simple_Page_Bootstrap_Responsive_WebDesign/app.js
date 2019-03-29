@@ -12,5 +12,3 @@ function stickyNav() {
       navContainer.classList.remove("sticky");
     }
   }
-
-
