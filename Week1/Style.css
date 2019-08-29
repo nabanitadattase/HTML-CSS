@@ -1,0 +1,44 @@
+body{
+    background-color: lightblue;
+    
+}
+h1{
+    color: black;
+    text-align: center;
+    margin-right: 150px;
+    font-family: 'Coiny', cursive;
+}
+h2{    
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-bottom: -10px;
+}
+
+h3{    
+    margin-top: 20px;    
+    margin-right: 50px;    
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-left: 180px;
+    
+}
+img{
+    border: double;
+    margin-right: 0px;
+}
+.demo { 
+    margin-left: 180px;;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0; 
+    margin-right: 100px   
+  }
+  div{    
+    padding-top: 0px;
+  }
