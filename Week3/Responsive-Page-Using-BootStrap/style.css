@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    box-sizing: border-box;
+}
+.poiret{
+    font-family: 'Poiret One', cursive; 
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #b67800;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.first {
+    top:0;
+    padding-top:140px;
+    height: 100vh;
+    min-height:400px;
+    background: url(images/relaxation.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navbar {
+    position:absolute;
+    z-index:10;
+    /* background:  rgba(0, 0, 0, 0.3); */
+    width:100%;
+    top: 0;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+ 
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border: 2px solid #fff;
+}
+ 
+#topTitle {
+    color: #fff;
+	font-weight: 500;
+	font-size: 3em;
+}
+.jumbotron{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.content{
+    margin-left: 0;
+    padding-top: 9%;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr {
+    margin-left: 34%;
+    width: 30vw;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#carouselContent{
+    color: #fff;
+    font-size: 24px;
+    height: 200px;
+    background: linear-gradient(rgba(182, 120, 0, 0.5), rgba(182, 120, 0, 0.5)),
+                url(images/med_2.jpg);
+    background-attachment: fixed;
+}
+
+#goldNav{
+    color: #b67800;
+}
+/* For Sticky Navbar */ 
+.sticky {
+	z-index: 1;
+	position: fixed;
+    top: 0;
+    color: #fff;
+	background: rgba(182, 120, 0, 0.9);
+	width: 100%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.layer{
+    background: rgba(182, 120, 0, 0.9);
+    transition: 0.8s ease-in-out;
+}
+.layer:hover img{
+	opacity: 0.6;
+	filter: grayscale(90%);
+}
+
+img{
+    transition: all 0.9s ease-in-out;
+}
